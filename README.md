@@ -35,16 +35,16 @@ Each row represents a unique customer. Each column contains customer attributes 
 ## Project Files
 ```
 /
+├── 1_data/
+│   └── telco_customer_churn_data.xlsx
+├── 2_analysis/
+│   └── telco_churn_analysis.xlsx
+├── 3_tableau_dashboard/
+│   └── telco_customer_churn_analysis_dashboard.twb
+├── 4_images/
+│   └── dashboard_visual.png
 ├── README.md
 ├── LICENSE
-├── data/
-│   ├── telco_customer_churn_data.xlsx
-├── analysis/
-│   ├── telco_churn_analysis.xlsx
-├── tableau_dashboard/
-│   └── telco_customer_churn_analysis_dashboard.twb
-├── images/
-   └── dashboard_visual.png
 ```
 
 ## Key Questions & Insights
