@@ -92,7 +92,7 @@ This interactivity supports both quick executive overview and deeper analytical 
 - Read this README for project context and analysis summary
 
 ## Contact
-- Linkedin: [LinkedIn](https://www.linkedin.com/in/hai-dang316)
+- [LinkedIn](https://www.linkedin.com/in/hai-dang316)
 - Email: h.dang686@yahoo.com
 
 Note: This project was completed as part of the Google Data Analytics Professional Certificate Capstone to showcase end-to-end data analysis skills including data cleaning, EDA, visualization, and business communication.
