@@ -65,8 +65,8 @@ Each row represents a unique customer. Each column contains customer attributes 
 │   └── telco_customer_churn_analysis_dashboard.twb
 ├── 4_images/
 │   └── dashboard_visual.png
-├── README.md
 ├── LICENSE
+├── README.md
 ```
 
 
