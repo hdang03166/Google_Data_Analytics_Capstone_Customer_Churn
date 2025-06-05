@@ -1,4 +1,5 @@
 # Customer Churn Analysis - Google Data Analytics Capstone Project
+**End-to-end churn analysis using real-world data | Excel, Tableau, EDA, business storytelling**
 
 ## Overview
 This capstone project explores customer churn patterns for a telecommunications company using a publicly available dataset. The analysis focuses on understanding how customer demographics, service usage, and financial variables influence churn behavior. Visualizations were created using Excel and Tableau to derive key insights and present them in a business-focused manner.
@@ -59,10 +60,9 @@ Each row represents a unique customer. Each column contains customer attributes 
 ## Tableau Dashboard
 An interactive Tableau dashboard titled "Telco Customer Churn Analysis Dashboard" presents insights through visualizations tailored for business understanding and stakeholder review.
 
-![Dashboard Screenshot](images/dashboard_visual.png)
+![Dashboard Screenshot](4_images/dashboard_visual.png)
 
-[Click here to explore the dashboard on Tableau Public]
-https://public.tableau.com/app/profile/hai.dang6069/viz/Telco_Customer_Churn_Analysis_Dashboard/Dashboard?publish=yes
+[Click here to explore the dashboard on Tableau Public](https://public.tableau.com/app/profile/hai.dang6069/viz/Telco_Customer_Churn_Analysis_Dashboard/Dashboard?publish=yes)
 
 Dashboard Features:
 - Dynamic Hover Tooltips: While the visualizations display percentages for ease of comparison, hovering over each segment reveals exact customer counts (e.g., number of churned customers vs. total in each category).
