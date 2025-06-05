@@ -33,6 +33,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 
 - **Google Data Analytics Certificate Concepts**: Data cleaning, EDA, data visualization, stakeholder communication
 
+
 ## Project Files
 ```
 /
@@ -47,6 +48,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 ├── README.md
 ├── LICENSE
 ```
+
 
 ## Key Questions & Insights
 
@@ -90,7 +92,7 @@ This interactivity supports both quick executive overview and deeper analytical 
 - Read this README for project context and analysis summary
 
 ## Contact
-- LinkedIn: www.linkedin.com/in/hai-dang316
+- [LinkedIn](https://www.linkedin.com/in/hai-dang316)
 - Email: h.dang686@yahoo.com
 
 Note: This project was completed as part of the Google Data Analytics Professional Certificate Capstone to showcase end-to-end data analysis skills including data cleaning, EDA, visualization, and business communication.
