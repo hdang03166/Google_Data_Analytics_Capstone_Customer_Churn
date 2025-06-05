@@ -36,7 +36,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 ```
 /
 ├── 1_data/
-│   └── telco_customer_churn_data.xlsx
+│   └── telco_customer_churn_data.csv
 ├── 2_analysis/
 │   └── telco_churn_analysis.xlsx
 ├── 3_tableau_dashboard/
