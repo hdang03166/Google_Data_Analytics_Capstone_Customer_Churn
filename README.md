@@ -1,11 +1,14 @@
 # Customer Churn Analysis - Google Data Analytics Capstone Project
-**End-to-end churn analysis using real-world data | Excel, Tableau, EDA, business storytelling**
+**End-to-end churn analysis using real-world data | Excel, Tableau, EDA, Business Storytelling**
+
 
 ## Overview
 This capstone project explores customer churn patterns for a telecommunications company using a publicly available dataset. The analysis focuses on understanding how customer demographics, service usage, and financial variables influence churn behavior. Visualizations were created using Excel and Tableau to derive key insights and present them in a business-focused manner.
 
+
 ## Objective
 Identify trends, correlations, and key factors that influence customer churn, and provide actionable business insights to help reduce churn and improve customer retention.
+
 
 ## Data Source
 The dataset used in this project is publicly available on Kaggle:
@@ -15,10 +18,11 @@ Description: This dataset includes 7,043 customer records with 21 variables incl
 
 License: Provided under the Kaggle Terms of Use. All rights belong to the original author.
 
+
 ## Content Description
 Each row represents a unique customer. Each column contains customer attributes described in the dataset metadata. The dataset includes:
 
-- Churn Status: Whether the customer left within the last month
+- Churn Status: Whether the customer left
 
 - Service Information: Phone, multiple lines, internet, online security, online backup, device protection, tech support, streaming TV, and streaming movies
 
@@ -26,12 +30,28 @@ Each row represents a unique customer. Each column contains customer attributes 
 
 - Demographics: Gender, age range, presence of partners and dependents
 
+
+## Data Cleaning and Preparation
+
+- Column headers were standardized by capitalizing all names for consistency.
+
+- The **Senior Citizen** column was transformed from numeric values (0/1) to categorical labels ("No"/"Yes") to improve clarity.
+
+- A new column, **Number of Add-on Services**, was created to quantify how many additional services each customer subscribes to. This supports more detailed churn analysis by service adoption.
+
+- Missing or blank values in the **Total Charges** column were highlighted in light green for easy identification. For customers with zero tenure (i.e., no active months), total charges were set to zero using the formula:
+
+  ```excel
+  =IF(Tenure=0, 0, TotalCharges)
+
+
 ## Tools & Techniques
-- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis
+- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis. Highlighted key churn rates in orange for visual emphasis
 
 - **Tableau**: Interactive dashboard creation for churn analysis
 
 - **Google Data Analytics Certificate Concepts**: Data cleaning, EDA, data visualization, stakeholder communication
+
 
 
 ## Project Files
@@ -50,14 +70,28 @@ Each row represents a unique customer. Each column contains customer attributes 
 ```
 
 
-## Key Questions & Insights
 
-- Overall churn rate is 26.54%, signaling a need for retention initiatives.
-- Month-to-month fiber optic customers churn the most.
-- Electronic check payment users show higher churn.
-- Customers with tenure less than 12 months have highest churn.
-- Senior citizens churn more than younger customers.
-- Bundled add-on services improve customer retention.
+## Key Questions & Insights
+- Overall churn rate is 26.54%, meaning over a quarter of customers have discontinued service.
+
+- Month-to-month fiber optic customers exhibit the highest churn, indicating low retention in short-term plans.
+
+- Electronic check users have the highest churn across internet types, especially among fiber users.
+
+- Customers with tenure under 12 months churn the most; churn declines as tenure increases.
+
+- Senior citizens churn at a higher rate than younger customers, though gender shows minimal effect.
+
+- Partners and dependents reduce churn risk, suggesting family ties support customer retention.
+
+- Monthly charges above $50, especially in the $50–$99 range, are linked to higher churn.
+
+- Low lifetime spenders (under $1,000) churn more; high-value customers are more loyal.
+
+- No significant churn difference is seen between users with or without multiple phone lines.
+
+- Customers with 4+ internet add-ons (e.g., backup, security, streaming) churn less, showing the benefit of bundled services.
+
 
 ## Tableau Dashboard
 An interactive Tableau dashboard titled "Telco Customer Churn Analysis Dashboard" presents insights through visualizations tailored for business understanding and stakeholder review.
@@ -83,13 +117,18 @@ Dashboard Features:
 
   - Tenure-based churn analysis
 
+  - Churn distribution by monthly charges and total (lifetime) charges
+
 This interactivity supports both quick executive overview and deeper analytical exploration.
 
+
 ## How to Use This Repository
-- Explore raw and cleaned datasets under /data
-- View the Excel workbook containing raw, cleaned data, service analysis, and churn summary under /analysis
-- Open the Tableau workbook using Tableau Public or Desktop to explore the dashboard
-- Read this README for project context and analysis summary
+- Explore raw dataset under /1_data
+- View the Excel workbook containing raw, cleaned data, service analysis, and churn summary under /2_analysis
+- Open the Tableau workbook using Tableau Public or Desktop to explore the interactive dashboard under /3_tableau_dashboard
+- View the dashboard screenshot under /4_images for a quick visual reference
+- Read this README for project context, methodology, and key insights
+
 
 ## Contact
 - [LinkedIn](https://www.linkedin.com/in/hai-dang316)
