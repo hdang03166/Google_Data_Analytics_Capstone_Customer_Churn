@@ -66,7 +66,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 ├── 4_images/
 │   └── dashboard_visual.png
 ├── LICENSE
-├── README.md
+└── README.md
 ```
 
 
