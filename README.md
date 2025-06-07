@@ -106,6 +106,8 @@ These queries demonstrate practical use of aggregation, filtering, grouping, and
 
 - Customers with 4+ internet add-ons (e.g., backup, security, streaming) churn less, showing the benefit of bundled services.
 
+Note: The full list of business questions and detailed insights is available in the telco_churn_analysis.xlsx file located in the /2_analysis/ folder.
+
 
 ## Tableau Dashboard
 An interactive Tableau dashboard titled "Telco Customer Churn Analysis Dashboard" presents insights through visualizations tailored for business understanding and stakeholder review.
