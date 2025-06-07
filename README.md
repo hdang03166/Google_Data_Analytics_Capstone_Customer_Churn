@@ -22,13 +22,13 @@ License: Provided under the Kaggle Terms of Use. All rights belong to the origin
 ## Content Description
 Each row represents a unique customer. Each column contains customer attributes described in the dataset metadata. The dataset includes:
 
-- Churn Status: Whether the customer left
+- Churn Status: Whether the customer left.
 
-- Service Information: Phone, multiple lines, internet, online security, online backup, device protection, tech support, streaming TV, and streaming movies
+- Service Information: Phone, multiple lines, internet, online security, online backup, device protection, tech support, streaming TV, and streaming movies.
 
-- Account Information: Tenure, contract type, payment method, paperless billing, monthly charges, and total charges
+- Account Information: Tenure, contract type, payment method, paperless billing, monthly charges, and total charges.
 
-- Demographics: Gender, age range, presence of partners and dependents
+- Demographics: Gender, age range, partner and dependent status.
 
 
 ## Data Cleaning and Preparation
@@ -41,20 +41,20 @@ Each row represents a unique customer. Each column contains customer attributes 
 
 - Missing or blank values in the **Total Charges** column were highlighted in light green for easy identification. For customers with zero tenure (i.e., no active months), total charges were set to zero using the formula:
 
-  ```excel
-  =IF(Tenure=0, 0, TotalCharges)
-
+```excel
+=IF(Tenure=0, 0, TotalCharges)
+```
 
 ## Tools & Techniques
-- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis. Highlighted key churn rates in orange for visual emphasis
+- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis. Highlighted key churn rates in orange for visual emphasis.
 
-- **Tableau**: Interactive dashboard creation for churn analysis
+- **Tableau**: Interactive dashboard creation for churn analysis.
 
-- **Google Data Analytics Certificate Concepts**: Data cleaning, EDA, data visualization, stakeholder communication
+- **Google Data Analytics Certificate Concepts**: Data cleaning, EDA, data visualization, stakeholder communication.
 
 
 ## SQL Queries
-Contains key SQL queries that replicate the logic behind the key metrics and visualizations presented in the dashboard, including:
+This repository includes key SQL queries that replicate the logic behind major metrics and visualizations used in the dashboard.
 
 - Calculating the overall churn rate compared to total customers.
 - Segmenting churn by internet service type, contract type, and payment method.
@@ -65,7 +65,7 @@ Contains key SQL queries that replicate the logic behind the key metrics and vis
 These queries demonstrate practical use of aggregation, filtering, grouping, and conditional logic to derive actionable business insights from raw customer data.
 
 
-## Project Files
+## Project Structure
 ```
 /
 ├── 1_data/
@@ -137,11 +137,11 @@ This interactivity supports both quick executive overview and deeper analytical 
 
 
 ## How to Use This Repository
-- Explore raw dataset under /1_data
-- View the Excel workbook containing raw, cleaned data, service analysis, and churn summary under /2_analysis
-- Open the Tableau workbook using Tableau Public or Desktop to explore the interactive dashboard under /4_tableau_dashboard
-- View the dashboard screenshot under /5_images for a quick visual reference
-- Read this README for project context, methodology, and key insights
+- Explore raw dataset under /1_data.
+- View the Excel workbook containing raw, cleaned data, service analysis, and churn summary under /2_analysis.
+- Open the Tableau workbook using Tableau Public or Desktop to explore the interactive dashboard under /4_tableau_dashboard.
+- View the dashboard screenshot under /5_images for a quick visual reference.
+- Read this README for project context, methodology, and key insights.
 
 
 ## Contact
