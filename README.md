@@ -110,7 +110,7 @@ These queries demonstrate practical use of aggregation, filtering, grouping, and
 ## Tableau Dashboard
 An interactive Tableau dashboard titled "Telco Customer Churn Analysis Dashboard" presents insights through visualizations tailored for business understanding and stakeholder review.
 
-![Dashboard Screenshot](4_images/dashboard_visual.png)
+![Dashboard Screenshot](5_images/dashboard_visual.png)
 
 [Click here to explore the dashboard on Tableau Public](https://public.tableau.com/app/profile/hai.dang6069/viz/Telco_Customer_Churn_Analysis_Dashboard/Dashboard?publish=yes)
 
@@ -139,8 +139,8 @@ This interactivity supports both quick executive overview and deeper analytical 
 ## How to Use This Repository
 - Explore raw dataset under /1_data
 - View the Excel workbook containing raw, cleaned data, service analysis, and churn summary under /2_analysis
-- Open the Tableau workbook using Tableau Public or Desktop to explore the interactive dashboard under /3_tableau_dashboard
-- View the dashboard screenshot under /4_images for a quick visual reference
+- Open the Tableau workbook using Tableau Public or Desktop to explore the interactive dashboard under /4_tableau_dashboard
+- View the dashboard screenshot under /5_images for a quick visual reference
 - Read this README for project context, methodology, and key insights
 
 
