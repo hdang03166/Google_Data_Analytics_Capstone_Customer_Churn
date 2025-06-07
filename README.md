@@ -53,6 +53,17 @@ Each row represents a unique customer. Each column contains customer attributes 
 - **Google Data Analytics Certificate Concepts**: Data cleaning, EDA, data visualization, stakeholder communication
 
 
+## SQL Queries
+Contains key SQL queries that replicate the logic behind the key metrics and visualizations presented in the dashboard, including:
+
+- Calculating the overall churn rate compared to total customers.
+- Segmenting churn by internet service type, contract type, and payment method.
+- Analyzing churn across demographic groups like gender, senior citizen status, partner, and dependents.
+- Grouping customers by tenure and monthly/total charges for churn pattern analysis.
+- Examining churn rate by number of add-on services.
+
+These queries demonstrate practical use of aggregation, filtering, grouping, and conditional logic to derive actionable business insights from raw customer data.
+
 
 ## Project Files
 ```
@@ -61,12 +72,15 @@ Each row represents a unique customer. Each column contains customer attributes 
 │   └── telco_customer_churn_data.csv
 ├── 2_analysis/
 │   └── telco_churn_analysis.xlsx
-├── 3_tableau_dashboard/
+├── 3_sql_queries/
+│   └── churn_analysis.sql
+├── 4_tableau_dashboard/
 │   └── telco_customer_churn_analysis_dashboard.twb
-├── 4_images/
+├── 5_images/
 │   └── dashboard_visual.png
 ├── LICENSE
 └── README.md
+
 ```
 
 
