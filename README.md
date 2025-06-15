@@ -14,7 +14,7 @@ Identify trends, correlations, and key factors that influence customer churn, an
 The dataset used in this project is publicly available on Kaggle:
 [Kaggle Dataset by BlastChar](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-Description: This dataset includes 7,043 customer records with 21 variables including demographic details, account information, service usage, and churn label.
+This dataset includes 7,043 customer records with 21 variables including demographic details, account information, service usage, and churn label.
 
 License: Provided under the Kaggle Terms of Use. All rights belong to the original author.
 
@@ -31,7 +31,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 - Demographics: Gender, age range, partner and dependent status.
 
 
-## Data Cleaning and Preparation
+## Data Cleaning & Preparation
 
 - Column headers were standardized by capitalizing all names for consistency.
 
@@ -67,7 +67,7 @@ These queries demonstrate practical use of aggregation, filtering, grouping, and
 
 ## Project Structure
 ```
-/
+Google_Data_Analytics_Capstone_Customer_Churn/
 ├── 1_data/
 │   └── telco_customer_churn_data.csv
 ├── 2_analysis/
@@ -80,7 +80,6 @@ These queries demonstrate practical use of aggregation, filtering, grouping, and
 │   └── dashboard_visual.png
 ├── LICENSE
 └── README.md
-
 ```
 
 
