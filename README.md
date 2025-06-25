@@ -1,6 +1,4 @@
 # Customer Churn Analysis - Google Data Analytics Capstone Project
-**End-to-end churn analysis using real-world data | Excel, Tableau, EDA, Business Storytelling**
-
 
 ## Overview
 This capstone project explores customer churn patterns for a telecommunications company using a publicly available dataset. The analysis focuses on understanding how customer demographics, service usage, and financial variables influence churn behavior. Visualizations were created using Excel and Tableau to derive key insights and present them in a business-focused manner.
