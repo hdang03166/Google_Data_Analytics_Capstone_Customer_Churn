@@ -14,7 +14,7 @@ The dataset used in this project is publicly available on Kaggle:
 
 This dataset includes 7,043 customer records with 21 variables including demographic details, account information, service usage, and churn label.
 
-License: Provided under the Kaggle Terms of Use. All rights belong to the original author.
+License: Provided under the Kaggle Terms of Use; all rights belong to the original author.
 
 
 ## Content Description
@@ -33,7 +33,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 
 - Column headers were standardized by capitalizing all names for consistency.
 
-- The **Senior Citizen** column was transformed from numeric values (0/1) to categorical labels ("No"/"Yes") to improve clarity.
+- The **Senior Citizen** column was transformed from numeric values (0/1) to categorical labels (No/Yes), to improve clarity.
 
 - A new column, **Number of Add-on Services**, was created to quantify how many additional services each customer subscribes to. This supports more detailed churn analysis by service adoption.
 
@@ -44,7 +44,7 @@ Each row represents a unique customer. Each column contains customer attributes 
 ```
 
 ## Tools & Techniques
-- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis. Highlighted key churn rates in orange for visual emphasis.
+- **Excel**: Data cleaning, pivot tables, bar charts, doughnut charts, grouped bin analysis, with key churn rates highlighted in orange for visual emphasis.
 
 - **Tableau**: Interactive dashboard creation for churn analysis.
 
@@ -85,7 +85,7 @@ Google_Data_Analytics_Capstone_Customer_Churn/
 ## Key Questions & Insights
 - Overall churn rate is 26.54%, meaning over a quarter of customers have discontinued service.
 
-- Month-to-month fiber optic customers exhibit the highest churn, indicating low retention in short-term plans.
+- Month-to-month fiber optic customers exhibit the highest churn, indicating low retention among short-term plans.
 
 - Electronic check users have the highest churn across internet types, especially among fiber users.
 
@@ -97,7 +97,7 @@ Google_Data_Analytics_Capstone_Customer_Churn/
 
 - Monthly charges above $50, especially in the $50–$99 range, are linked to higher churn.
 
-- Low lifetime spenders (under $1,000) churn more; high-value customers are more loyal.
+- Low lifetime spenders (under $1,000) churn more, high-value customers tend to be more loyal.
 
 - No significant churn difference is seen between users with or without multiple phone lines.
 
@@ -145,9 +145,9 @@ This interactivity supports both quick executive overview and deeper analytical 
 # Reflections & Key Takeaways
 This project was a fun and rewarding experience. It gave me real hands-on exposure working with a Kaggle dataset and building an interactive dashboard in Tableau. Everything I learned throughout the Google Data Analytics Professional Certificate on Coursera helped prepare me to clean and transform data in Excel, write SQL queries, and deliver insights with clarity and structure.
 
-To make the project feel professional, I went beyond the course by researching how other GitHub users structured their files and explored best practices in dashboard design, project organization, and analytical storytelling. I gained a deeper understanding of key business concepts such as customer churn, retention strategies, and how data can directly influence business decision-making. This project deepened my ability to manage datasets, uncover insights, and communicate findings in ways that are valuable to companies and stakeholders.
+To make the project feel professional, I went beyond the course by researching how other GitHub users structured their files, and explored best practices in dashboard design, project organization, and analytical storytelling. I gained a deeper understanding of key business concepts such as customer churn, retention strategies, and how data can directly influence business decision-making. This project deepened my ability to manage datasets, uncover insights, and communicate findings in ways that are valuable to companies and stakeholders.
 
-Before I discovered data analytics, I wasn’t sure what career path I wanted to pursue - I only knew I wanted to work with computers and technology. Working on this capstone helped bridge the gap of not having prior real-world experience as an analyst, and it sparked even more curiosity about the data space. It inspired me to keep learning, building, and growing in this field.
+Before I discovered data analytics, I wasn’t sure what career path I wanted to pursue  — I only knew I wanted to work with computers and technology. Working on this capstone helped bridge the gap of not having prior real-world experience as an analyst, and it sparked even more curiosity about the data space. It inspired me to keep learning, building, and growing in this field.
 
 # Contact
 - LinkedIn: [www.linkedin.com/in/hai-dang316](https://www.linkedin.com/in/hai-dang316)
