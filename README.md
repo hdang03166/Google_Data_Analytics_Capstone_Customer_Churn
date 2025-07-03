@@ -107,7 +107,7 @@ Note: The full list of business questions and detailed insights is available in 
 
 
 ## Tableau Dashboard
-An interactive Tableau dashboard titled "Telco Customer Churn Analysis Dashboard" presents insights through visualizations tailored for business understanding and stakeholder review.
+An interactive Tableau dashboard that presents insights through visualizations tailored for business understanding and stakeholder review.
 
 ![Dashboard Screenshot](5_images/dashboard_visual.png)
 
@@ -142,9 +142,15 @@ This interactivity supports both quick executive overview and deeper analytical 
 - View the dashboard screenshot under /5_images for a quick visual reference.
 - Read this README for project context, methodology, and key insights.
 
+# Reflections & Key Takeaways
+This project was a fun and rewarding experience. It gave me real hands-on exposure working with a Kaggle dataset and building an interactive dashboard in Tableau. Everything I learned throughout the Google Data Analytics Professional Certificate on Coursera helped prepare me to clean and transform data in Excel, write SQL queries, and deliver insights with clarity and structure.
 
-## Contact
-- [LinkedIn](https://www.linkedin.com/in/hai-dang316)
+To make the project feel professional, I went beyond the course by researching how other GitHub users structured their files and explored best practices in dashboard design, project organization, and analytical storytelling. I gained a deeper understanding of key business concepts such as customer churn, retention strategies, and how data can directly influence business decision-making. This project deepened my ability to manage datasets, uncover insights, and communicate findings in ways that are valuable to companies and stakeholders.
+
+Before I discovered data analytics, I wasn’t sure what career path I wanted to pursue - I only knew I wanted to work with computers and technology. Working on this capstone helped bridge the gap of not having prior real-world experience as an analyst, and it sparked even more curiosity about the data space. It inspired me to keep learning, building, and growing in this field.
+
+# Contact
+- LinkedIn: [www.linkedin.com/in/hai-dang316](https://www.linkedin.com/in/hai-dang316)
 - Email: h.dang686@yahoo.com
 
 Note: This project was completed as part of the Google Data Analytics Professional Certificate Capstone to showcase end-to-end data analysis skills including data cleaning, EDA, visualization, and business communication.
